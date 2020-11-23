@@ -1098,3 +1098,8 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.file {
+  width: 30px;
+  filter: invert(53%) sepia(93%) saturate(3852%) hue-rotate(171deg) brightness(102%) contrast(84%);
+}

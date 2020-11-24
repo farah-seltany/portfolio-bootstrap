@@ -20,7 +20,7 @@ try {
     $mail->Username   = '9a87c970f2481b';                     // SMTP username
     $mail->Password   = '3be6fd2fcb2cce';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-    $mail->Port       = 2525;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+    $mail->Port       = 25;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
     // $mail->setFrom('from@example.com', 'Mailer');

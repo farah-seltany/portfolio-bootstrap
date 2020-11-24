@@ -99,7 +99,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Développeuse Web</h3>
             <p class="font-italic">
-              A part le code ? Les voyages ! Les gros livres ! Mon smartphone ! Et depuis peu le yoga !
+              A part le code ? Les voyages ! Les gros livres ! Et depuis peu le yoga !
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -107,6 +107,7 @@
                   <li><i class="icofont-rounded-right"></i> <strong>Date de naissance :</strong> 22 avril 1992</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Mobile :</strong> +33 6 25 45 73 71</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Adresse :</strong> Lyon 1er, France</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Nationalité :</strong> Française</li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -589,35 +590,35 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/mailto.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <label for="name">Nom *</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Le nom doit contenir au minimum 4 caractères." />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <label for="name">Email *</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Merci d'entrer une adresse email valide." />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <label for="name">Objet *</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="L'objet doit contenir au minimum 4 caractères." />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <label for="name">Message *</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Le corps du message est obligatoire."></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Votre message a bien été envoyé ! Je vous reconterai dans les plus brefs délais.</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Envoyer</button></div>
             </form>
           </div>
 
